@@ -8,7 +8,7 @@ import junit.framework.TestSuite;
  * Unit test for simple App.
  */
 public class AppTest 
-    extends TestCase
+    extends TestCase	
 {
     /**
      * Create the test case
@@ -19,10 +19,10 @@ public class AppTest
     {
         super( testName );
     }
+
     public void test1() {
-	App obj = new App();
-	int c = obj.add(40, 40);
-	assertEquals(c,80);
+	App object  = new App();
+	int c = object.add(10, 20);
+	assertEquals(c , 30);
     }
-    
 }
